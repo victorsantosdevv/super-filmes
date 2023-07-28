@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+
+* { margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: 'Caprasimo', cursive;
+}
+
+body{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgb(247, 104, 104) 0%, rgb(100, 100, 100) 0%, rgb(78, 29, 90) 42%);
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.658);
+    box-shadow: 0px 3px 10px #464646;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+}
+
+.logo{ 
+    display: flex;
+    align-items: center;
+    color: yellow;
+    text-transform: uppercase;
+}
+
+.logo span{
+    color: red;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item{
+    margin: 0 15px;
+    text-transform: uppercase;
+}
+
+.nav-item :hover{
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: #fff;
+    font-weight: 400px;
+}
+
+.sociais-logo button{
+    width: 30px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.container-principal{
+    margin: 0 auto;
+    width: 1300px;
+    height: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 5px 5px 10px #000000;
+    background-image: url(/assets/img/da2dd7a8ff8b07f37e0ad1f982423209.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-titulo h1{
+    font-size: 50px;
+    color: #ffffff;
+    text-shadow: 10px 10px 10px #000000;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #505050b9;
+}
+
+.main-paragrafo p{
+    font-size: 30px;
+    color: #ffffff;
+    text-shadow: 10px 10px 10px #000000;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #505050b9;
+}
+
+
+.myButton {
+    margin-top: 15px;
+	box-shadow:inset 0px 1px 0px 0px #f5978e;
+	background:linear-gradient(to bottom, #f24537 5%, #c62d1f 100%);
+	background-color:#f24537;
+	border-radius:6px;
+	border:1px solid #d02718;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:15px;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #810e05;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #c62d1f 5%, #f24537 100%);
+	background-color:#c62d1f;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+.area-dispositivos{
+    margin: 0 auto;
+    padding: 10px;
+    width: 1000px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #000000af;
+    border-bottom: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px #000000;
+}
+
+.secao-dispositivos h2{
+    font-size: 30px;
+    color: #ffffff;
+    text-shadow: 5px 5px 10px #000000;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000000be;
+}
+
+.dispositivos{
+    width: 1000px;
+    height: 150px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    background-color: #000000be;
+    box-shadow: 1px 1px 5px #000000;
+    border-radius: 5px;
+}
+
+.card-dispositivos{
+    width: 150px;
+    height: 100px;
+}
+
+.card-dispositivos p{
+    font-size: 20px;
+    padding: 5px;
+    color: #ffffff;
+}
+
+.card-dispositivos img{
+    height: 100px;
+    width: 100px;
+}
